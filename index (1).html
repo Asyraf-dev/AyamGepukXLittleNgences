@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayam Gepuk X Little Ngences</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="order-form-container">
+        <h1>SELAMAT DATANG KE RESTORAN AYAM GEPUK</h1>
+        <div class="menu-container">
+            <h2>-Menu-</h2>
+            <!-- Set Ayam Gepuk -->
+            <div class="menuItem" data-price="10" data-name="Set Ayam Gepuk">
+                <img src="Set Ayam Gepuk.jpg" alt="Set Ayam Gepuk" class="foodImg">
+                <p>Set Ayam Gepuk - RM 10.00</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="cheeseQty1">Nasi Tambah:</label>
+                    <input type="number" id="Nasi Tambah" name="Nasi Tambah" value="0" min="0" class="addon-quantity" data-price="2.0">
+                    <label for="baconQty1"><br>Tempe Tambah:</label>
+                    <input type="number" id="Tempe Tambah" name="Tempe Tambah" value="0" min="0" class="addon-quantity" data-price="1.5">
+                    <label for="lettuceQty1"><br>Ulam Tambah:</label>
+                    <input type="number" id="Ulam Tambah" name="Ulam Tambah" value="0" min="0" class="addon-quantity" data-price="1.0">
+                    <label for="lettuceQty1"><br>Sambal Tambah:</label>
+                    <input type="number" id="Sambal Tambah" name="Sambal Tambah" value="0" min="0" class="addon-quantity" data-price="2.0">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Set Lele -->
+            <div class="menuItem" data-price="8" data-name="Set Lele">
+                <img src="Set Ayam Gepuk.jpg" alt="Set Lele" class="foodImg">
+                <p>Set Lele - RM 8.00</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="cheeseQty1">Nasi Tambah:</label>
+                    <input type="number" id="Nasi Tambah" name="Nasi Tambah" value="0" min="0" class="addon-quantity" data-price="2.0">
+                    <label for="baconQty1"><br>Tempe Tambah:</label>
+                    <input type="number" id="Tempe Tambah" name="Tempe Tambah" value="0" min="0" class="addon-quantity" data-price="1.5">
+                    <label for="lettuceQty1"><br>Ulam Tambah:</label>
+                    <input type="number" id="Ulam Tambah" name="Ulam Tambah" value="0" min="0" class="addon-quantity" data-price="1.0">
+                    <label for="lettuceQty1"><br>Sambal Tambah:</label>
+                    <input type="number" id="Sambal Tambah" name="Sambal Tambah" value="0" min="0" class="addon-quantity" data-price="2.0">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Set Daging Balado -->
+            <div class="menuItem" data-price="8" data-name="Set Daging Balado">
+                <img src="Set Ayam Gepuk.jpg" alt="Set Daging Balado" class="foodImg">
+                <p>Set Daging Balado - RM 8.00</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="cheeseQty1">Nasi Tambah:</label>
+                    <input type="number" id="Nasi Tambah" name="Nasi Tambah" value="0" min="0" class="addon-quantity" data-price="2.0">
+                    <label for="baconQty1"><br>Tempe Tambah:</label>
+                    <input type="number" id="Tempe Tambah" name="Tempe Tambah" value="0" min="0" class="addon-quantity" data-price="1.5">
+                    <label for="lettuceQty1"><br>Ulam Tambah:</label>
+                    <input type="number" id="Ulam Tambah" name="Ulam Tambah" value="0" min="0" class="addon-quantity" data-price="1.0">
+                    <label for="lettuceQty1"><br>Sambal Tambah:</label>
+                    <input type="number" id="Sambal Tambah" name="Sambal Tambah" value="0" min="0" class="addon-quantity" data-price="2.0">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Bakso -->
+            <div class="menuItem" data-price="7" data-name="Bakso">
+                <img src="Set Ayam Gepuk.jpg" alt="Bakso" class="foodImg">
+                <p>Bakso - RM 7.00</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Mee">Mee:</label>
+                    <input type="number" id="Mee" name="Mee" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Soon"><br>Soon:</label>
+                    <input type="number" id="Soon" name="Soon" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Maggi"><br>Maggi:</label>
+                    <input type="number" id="Maggi" name="Maggi" value="0" min="0" class="addon-quantity" data-price="0">               
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Bakso Beranak -->
+            <div class="menuItem" data-price="10" data-name="Bakso Beranak">
+                <img src="Set Ayam Gepuk.jpg" alt="Bakso Beranak" class="foodImg">
+                <p>Bakso - RM 10.00</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Mee">Mee:</label>
+                    <input type="number" id="Mee" name="Mee" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Soon"><br>Soon:</label>
+                    <input type="number" id="Soon" name="Soon" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Maggi"><br>Maggi:</label>
+                    <input type="number" id="Maggi" name="Maggi" value="0" min="0" class="addon-quantity" data-price="0">               
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Bakso Mercun -->
+            <div class="menuItem" data-price="10" data-name="Bakso Mercun">
+                <img src="Set Ayam Gepuk.jpg" alt="Bakso Mercun" class="foodImg">
+                <p>Bakso - RM 15.00</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Mee">Mee:</label>
+                    <input type="number" id="Mee" name="Mee" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Soon"><br>Soon:</label>
+                    <input type="number" id="Soon" name="Soon" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Maggi"><br>Maggi:</label>
+                    <input type="number" id="Maggi" name="Maggi" value="0" min="0" class="addon-quantity" data-price="0">               
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Side Dish Ayam Sahaja -->
+            <div class="menuItem" data-price="8.5" data-name="Ayam Sahaja">
+                <p>Ayam Sahaja - RM 8.50</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Peha">Peha:</label>
+                    <input type="number" id="Peha" name="Peha" class="addon-quantity" value="Peha"data-price="0">
+                    <label for="Kepak"><br>Kepak:</label>    
+                    <input type="number" id="Kepak" name="Kepak" class="addon-quantity" value="Kepak"data-price="0">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+                
+            <!-- Side Dish Lele Sahaja -->
+            <div class="menuItem" data-price="6.5" data-name="Lele Sahaja">
+                <p>Lele Sahaja - RM 6.50</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Side Dish Daging Sahaja -->
+            <div class="menuItem" data-price="5.5" data-name="Daging Sahaja">
+                <p>Daging Sahaja - RM 5.50</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Side Dish Bakso Kosong Sahaja -->
+            <div class="menuItem" data-price="5.5" data-name="Bakso Kosong">
+                <p>Bakso Kosong - RM 5.50</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Air Teh O -->
+            <div class="menuItem" data-price="1.5" data-name="Teh O">
+                <p>Teh O - RM 1.50</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Panas">Panas:</label>
+                    <input type="number" id="Panas" name="Panas" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Sejuk"><br>Sejuk:</label>
+                    <input type="number" id="Sejuk" name="Sejuk" value="0" min="0" class="addon-quantity" data-price="0.5">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Air Kopi O -->
+            <div class="menuItem" data-price="1.5" data-name="Kopi O">
+                <p>Kopi O - RM 1.50</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Panas">Panas:</label>
+                    <input type="number" id="Panas" name="Panas" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Sejuk"><br>Sejuk:</label>
+                    <input type="number" id="Sejuk" name="Sejuk" value="0" min="0" class="addon-quantity" data-price="0.5">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Air Milo O -->
+            <div class="menuItem" data-price="2.5" data-name="Milo O">
+                <p>Milo O - RM 2.50</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Panas">Panas:</label>
+                    <input type="number" id="Panas" name="Panas" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Sejuk"><br>Sejuk:</label>
+                    <input type="number" id="Sejuk" name="Sejuk" value="0" min="0" class="addon-quantity" data-price="0.5">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Air Nescafe O -->
+            <div class="menuItem" data-price="2.5" data-name="Nescafe O">
+                <p>Nescafe O - RM 2.50</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Panas">Panas:</label>
+                    <input type="number" id="Panas" name="Panas" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Sejuk"><br>Sejuk:</label>
+                    <input type="number" id="Sejuk" name="Sejuk" value="0" min="0" class="addon-quantity" data-price="0.5">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Air Teh -->
+            <div class="menuItem" data-price="2.0" data-name="Teh">
+                <p>Teh - RM 2.00</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Panas">Panas:</label>
+                    <input type="number" id="Panas" name="Panas" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Sejuk"><br>Sejuk:</label>
+                    <input type="number" id="Sejuk" name="Sejuk" value="0" min="0" class="addon-quantity" data-price="0.5">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Air Kopi -->
+            <div class="menuItem" data-price="2.0" data-name="Kopi">
+                <p>Kopi - RM 2.00</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Panas">Panas:</label>
+                    <input type="number" id="Panas" name="Panas" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Sejuk"><br>Sejuk:</label>
+                    <input type="number" id="Sejuk" name="Sejuk" value="0" min="0" class="addon-quantity" data-price="0.5">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Air Milo -->
+            <div class="menuItem" data-price="3.0" data-name="Milo">
+                <p>Milo - RM 3.00</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Panas">Panas:</label>
+                    <input type="number" id="Panas" name="Panas" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Sejuk"><br>Sejuk:</label>
+                    <input type="number" id="Sejuk" name="Sejuk" value="0" min="0" class="addon-quantity" data-price="0.5">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Air Nescafe -->
+            <div class="menuItem" data-price="3.0" data-name="Nescafe">
+                <p>Nescafe - RM 3.00</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Panas">Panas:</label>
+                    <input type="number" id="Panas" name="Panas" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Sejuk"><br>Sejuk:</label>
+                    <input type="number" id="Sejuk" name="Sejuk" value="0" min="0" class="addon-quantity" data-price="0.5">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Air Horlick -->
+            <div class="menuItem" data-price="4.0" data-name="Horlick">
+                <p>Horlick - RM 4.00</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Panas">Panas:</label>
+                    <input type="number" id="Panas" name="Panas" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Sejuk"><br>Sejuk:</label>
+                    <input type="number" id="Sejuk" name="Sejuk" value="0" min="0" class="addon-quantity" data-price="0.5">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Air Neslo -->
+            <div class="menuItem" data-price="3.50" data-name="Neslo">
+                <p>Neslo - RM 3.50</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Panas">Panas:</label>
+                    <input type="number" id="Panas" name="Panas" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Sejuk"><br>Sejuk:</label>
+                    <input type="number" id="Sejuk" name="Sejuk" value="0" min="0" class="addon-quantity" data-price="0.5">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Air Sirap -->
+            <div class="menuItem" data-price="1.50" data-name="Sirap">
+                <p>Sirap - RM 1.50</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Panas">Panas:</label>
+                    <input type="number" id="Panas" name="Panas" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Sejuk"><br>Sejuk:</label>
+                    <input type="number" id="Sejuk" name="Sejuk" value="0" min="0" class="addon-quantity" data-price="0.5">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Air Sirap Selasih -->
+            <div class="menuItem" data-price="2.00" data-name="Sirap Selasih">
+                <p>Sirap Selasih - RM 2.00</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Panas">Panas:</label>
+                    <input type="number" id="Panas" name="Panas" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Sejuk"><br>Sejuk:</label>
+                    <input type="number" id="Sejuk" name="Sejuk" value="0" min="0" class="addon-quantity" data-price="0.5">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Air Sirap Limau -->
+            <div class="menuItem" data-price="2.00" data-name="Sirap Limau">
+                <p>Sirap Limau - RM 2.00</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Panas">Panas:</label>
+                    <input type="number" id="Panas" name="Panas" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Sejuk"><br>Sejuk:</label>
+                    <input type="number" id="Sejuk" name="Sejuk" value="0" min="0" class="addon-quantity" data-price="0.5">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Air Sirap Laici -->
+            <div class="menuItem" data-price="2.50" data-name="Sirap Laici">
+                <p>Sirap Laici - RM 2.50</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Panas">Panas:</label>
+                    <input type="number" id="Panas" name="Panas" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Sejuk"><br>Sejuk:</label>
+                    <input type="number" id="Sejuk" name="Sejuk" value="0" min="0" class="addon-quantity" data-price="0.5">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Air Teh O Limau -->
+            <div class="menuItem" data-price="2.00" data-name="Teh O Limau">
+                <p>Teh O Limau - RM 2.00</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Panas">Panas:</label>
+                    <input type="number" id="Panas" name="Panas" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Sejuk"><br>Sejuk:</label>
+                    <input type="number" id="Sejuk" name="Sejuk" value="0" min="0" class="addon-quantity" data-price="0.5">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Air Teh O Laici -->
+            <div class="menuItem" data-price="2.50" data-name="Teh O Laici">
+                <p>Teh O Laici - RM 2.50</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Panas">Panas:</label>
+                    <input type="number" id="Panas" name="Panas" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Sejuk"><br>Sejuk:</label>
+                    <input type="number" id="Sejuk" name="Sejuk" value="0" min="0" class="addon-quantity" data-price="0.5">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Air Sirap Bandung -->
+            <div class="menuItem" data-price="2.00" data-name="Sirap Bandung">
+                <p>Sirap Bandung - RM 2.00</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Panas">Panas:</label>
+                    <input type="number" id="Panas" name="Panas" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Sejuk"><br>Sejuk:</label>
+                    <input type="number" id="Sejuk" name="Sejuk" value="0" min="0" class="addon-quantity" data-price="0.5">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Air Limau -->
+            <div class="menuItem" data-price="1.50" data-name="Limau">
+                <p>Limau - RM 1.50</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Panas">Panas:</label>
+                    <input type="number" id="Panas" name="Panas" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Sejuk"><br>Sejuk:</label>
+                    <input type="number" id="Sejuk" name="Sejuk" value="0" min="0" class="addon-quantity" data-price="0.5">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Air Sanquick -->
+            <div class="menuItem" data-price="2.00" data-name="Sanquick">
+                <p>Sanquick - RM 2.00</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Panas">Panas:</label>
+                    <input type="number" id="Panas" name="Panas" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Sejuk"><br>Sejuk:</label>
+                    <input type="number" id="Sejuk" name="Sejuk" value="0" min="0" class="addon-quantity" data-price="0.5">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Air Sanquick Laici -->
+            <div class="menuItem" data-price="2.00" data-name="Sanquick Laici">
+                <p>Sanquick Laici - RM 2.50</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Panas">Panas:</label>
+                    <input type="number" id="Panas" name="Panas" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Sejuk"><br>Sejuk:</label>
+                    <input type="number" id="Sejuk" name="Sejuk" value="0" min="0" class="addon-quantity" data-price="0.5">
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Air ExtraJoss Anggur -->
+            <div class="menuItem" data-price="2.00" data-name="ExtraJoss Anggur">
+                <p>ExtraJoss Anggur - RM 2.00</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Gula"><br>Gula:</label>
+                    <input type="number" id="Gula" name="Gula" value="0" min="0" class="addon-quantity" data-price="0.0">
+                    <label for="Susu"><br>Susu:</label>
+                    <input type="number" id="Susu" name="Susu" value="0" min="0" class="addon-quantity" data-price="0.5">
+                    <label for="Panas"><br>Panas:</label>
+                    <input type="number" id="Panas" name="Panas" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Sejuk"><br>Sejuk:</label>
+                    <input type="number" id="Sejuk" name="Sejuk" value="0" min="0" class="addon-quantity" data-price="0.5">
+                    
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Air ExtraJoss Mangga -->
+            <div class="menuItem" data-price="2.00" data-name="ExtraJoss Mangga">
+                <p>ExtraJoss Mangga - RM 2.00</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" name="quantity1" value="1" min="1">
+                <div class="add-ons">
+                    <label for="Gula"><br>Gula:</label>
+                    <input type="number" id="Gula" name="Gula" value="0" min="0" class="addon-quantity" data-price="0.0">
+                    <label for="Susu"><br>Susu:</label>
+                    <input type="number" id="Susu" name="Susu" value="0" min="0" class="addon-quantity" data-price="0.5">
+                    <label for="Panas"><br>Panas:</label>
+                    <input type="number" id="Panas" name="Panas" value="0" min="0" class="addon-quantity" data-price="0">
+                    <label for="Sejuk"><br>Sejuk:</label>
+                    <input type="number" id="Sejuk" name="Sejuk" value="0" min="0" class="addon-quantity" data-price="0.5">
+                    
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+             
+            
+            
+
+            <!-- Repeat similar structure for other menu items -->
+        </div>
+        <div class="cart-container">
+            <h2>Cart</h2>
+            <ul id="cartItems"></ul>
+            <p>Total Price: <span id="totalPrice">RM 0.00</span></p>
+            <form id="orderForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="meja">Meja:</label>
+                <input type="text" id="meja" meja="meja" required><br><br>
+                <label for="special">Special Request:</label>
+                <input type="text" id="special" special="special" ><br><br>
+                <button type="submit">Submit Order</button>
+            </form>
+        </div>
+    </div>
+    <!-- The popup -->
+    <div id="popup" class="popup-overlay">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <h2>Assalamualaikum dan Salam Sejahtera</h2>
+            <p>-Little Ngences X Ayam Gepuk</p>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <footer>
+        <p><b>Little Ngences X Ayam Gepuk</b></p>
+        <p>&copy; 2024 electricaltechnologymy. All rights reserved.</p>
+        <p> 
+            
+            <a href="https://wa.me/+60176977263">Contact Us</a> |
+            <a href="https://www.instagram.com/littlengencescoffee?igsh=MWZhZmM4YXcyc2Fraw==">Instagram</a> |
+            <a href="https://www.tiktok.com/@little.ngences.co?_t=8nzZDYmHXhg&_r=1">Tiktok</a>
+        </p>
+    </footer>
+</body>
+</html>
