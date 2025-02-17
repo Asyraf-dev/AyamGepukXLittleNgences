@@ -123,8 +123,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const totalPrice = totalPriceElement.textContent;
         orderDetailsContent += `Total Price: ${totalPrice}`;
 
-        const webhookURL = 'https://discordapp.com/api/webhooks/1330553087017881732/qoNVed-Eb3cxRz2571y6nF3nfChUWybl6gMdns33IkX2LyVS76Eg28zi-ikbycjuipk-'; // owner
-        const webhookURLs = 'https://discordapp.com/api/webhooks/1330553262365085778/BEoKLIddMRICoARFoe8GDbMQGtArRqTtp3QMa2gLB4NAtn4mEzQ8GGQNhPH0Ky8h3dWv'; //customer
+        const webhookURL = 'https://discordapp.com/api/webhooks/1340920048260354248/xVD3JTN0vZYxK8tmez_Uu38w03-fJPX2_w4n25uln726UpdljARrLaHJ2VEAFKDRBEGY'; // owner
+        const webhookURLs = 'https://discordapp.com/api/webhooks/1340920437860991036/M3K6_VE4270USpBDtt2u-6NhKmxOMLA7TN827gs9x6OIoXq7GnVoLRUgpTxVujf3HC8I'; //customer
 
         const orderDetails = {
             content: orderDetailsContent
